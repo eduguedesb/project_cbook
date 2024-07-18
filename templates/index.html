@@ -1,0 +1,21 @@
+<!doctype html>
+<html>
+<head>
+    <title>Agenda de Contatos</title>
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+    <h1>Agenda de Contatos</h1>
+    <ul>
+        {% for row in results %}
+            <li>{{ row[1] }}</li>
+            <li>{{ row[2] }}</li>
+            <li>{{ row[3] }}</li>
+            <li>{{ row[4] }}</li>
+            <li>{{ row[5] }}</li>
+            <li>{{ row[6] }}</li>
+            <br><br>
+        {% endfor %}
+    </ul>
+</body>
+</html>

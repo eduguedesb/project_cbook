@@ -1,0 +1,1 @@
+Projeto de estudo para testar conexão com banco de dados mysql e leitura de dados em uma tabela usando python com flask.
